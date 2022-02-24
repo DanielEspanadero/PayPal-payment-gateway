@@ -1,0 +1,33 @@
+{
+  "name": "paypal-payment-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielEspanadero/PayPal-payment-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielEspanadero/PayPal-payment-gateway/issues"
+  },
+  "homepage": "https://github.com/DanielEspanadero/PayPal-payment-gateway#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
